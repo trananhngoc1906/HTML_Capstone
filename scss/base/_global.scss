@@ -1,0 +1,30 @@
+body,
+html {
+  font-family: "Source Sans Pro", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Volkhov", serif;
+}
+p {
+  font-size: 17px;
+
+  margin-bottom: 0;
+  line-height: 27px;
+}
+.title h5 {
+  color: $color-organ !important;
+  font-size: 1.5rem;
+  margin-bottom: 0;
+}
+.title h1 {
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+a:hover {
+  text-decoration: none;
+}

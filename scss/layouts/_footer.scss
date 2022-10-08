@@ -1,0 +1,108 @@
+.comment__content {
+  padding: 60px 0;
+  .comment__content--left {
+    h5 {
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 25px;
+      margin-bottom: 30px;
+      padding-top: 20px;
+    }
+    p:not(:first-of-type) {
+      margin-top: 15px;
+    }
+    a {
+      color: $color-gray;
+      &:hover {
+        color: $color-organ;
+      }
+    }
+  }
+
+  .comment__content--mid {
+    .farmstead {
+      a {
+        font-size: 1.7rem;
+        position: relative;
+        color: $color-organ;
+        &:hover {
+          color: $color-white;
+        }
+      }
+      .leaf {
+        position: absolute;
+        top: -4px;
+        left: 58px;
+        font-size: 22px;
+      }
+    }
+    p {
+      margin-top: 40px;
+    }
+    a {
+      color: $color-green;
+      &:hover {
+        color: $color-organ;
+      }
+    }
+  }
+
+  .comment__content--right {
+    h5 {
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 25px;
+      padding-top: 20px;
+    }
+    p {
+      margin-top: 50px;
+    }
+    form {
+      display: flex;
+      margin: 30px 0;
+
+      input {
+        width: 70%;
+        outline: none;
+        border: none;
+        border-top-left-radius: 30px;
+        border-bottom-left-radius: 30px;
+        background: $color-white-3;
+        padding: 10px 25px;
+
+        &::placeholder {
+          font-size: 16px;
+          line-height: 16px;
+        }
+      }
+      button {
+        width: 20%;
+        background: $color-green;
+        color: $color-white;
+        border: none;
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+        font-size: 17px;
+      }
+    }
+    .footer-contact {
+      a {
+        color: $color-green;
+        background-color: rgb(10 191 83 / 8%);
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+        border-radius: 50%;
+        text-align: center;
+        display: inline-block;
+        margin-right: 10px;
+        &:hover {
+          transition: all 0.2s;
+          color: $color-organ;
+          background: rgb(255 201 69 / 19%);
+          box-shadow: 0px 4px 7px 0px rgb(10 10 10 / 24%);
+        }
+      }
+    }
+  }
+}

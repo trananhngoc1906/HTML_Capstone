@@ -1,0 +1,65 @@
+.reason__bot {
+  i {
+    color: $color-organ;
+    font-size: 27px;
+    position: relative;
+    left: -8px;
+  }
+  h4 {
+    font-weight: 600;
+  }
+}
+
+.reason__box {
+  background-color: $color-organ-1;
+  position: absolute;
+  left: -63px;
+  bottom: 38px;
+  padding: 35px 65px;
+  border-radius: 0 0 100px 0;
+  h1 {
+    font-size: 4.5rem;
+    font-weight: 600;
+  }
+  h5 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    font-family: "Source Sans Pro", sans-serif;
+  }
+}
+
+.reason__right-content img {
+  border-radius: 30px;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 1200px) {
+  .reason__box {
+    bottom: 30px;
+    left: -80px;
+  }
+
+  .reason__text h4 {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 991.98px) {
+  .reason__right-content {
+    margin: 50px 0 0 70px;
+  }
+  .reason__box {
+    bottom: 50px;
+    left: 10px;
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  .reason__right-content {
+    margin: 50px 0 0 0;
+  }
+  .reason__box {
+    bottom: 50px;
+    left: -60px;
+  }
+}
